@@ -1,1 +1,1 @@
-type HelloWorld = string; // expect to be a string
+type HelloWorld = string;
