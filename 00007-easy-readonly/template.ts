@@ -5,7 +5,7 @@ type MyReadonly<T> = {
 /**
  * js实现
  */
-function readOnly(obj) {
+function _MyReadonly(obj) {
   const res = {};
   for (const key in obj) {
     res["readOnly " + key] = obj[key];
