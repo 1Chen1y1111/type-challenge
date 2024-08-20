@@ -5,7 +5,7 @@ type TupleToObject<T extends readonly (number | string | symbol)[]> = {
 /**
  * js实现
  */
-function tupleToObject(arr) {
+function _TupleToObject(arr) {
   const res = {};
 
   arr.forEach((item) => {
