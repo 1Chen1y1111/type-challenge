@@ -5,7 +5,7 @@ type MyPick<T, K extends keyof T> = {
 /**
  * js实现
  */
-function Pick(todo, keys) {
+function _MyPick(todo, keys) {
   const obj = {};
   keys.forEach((key) => {
     if (key in todo) {
