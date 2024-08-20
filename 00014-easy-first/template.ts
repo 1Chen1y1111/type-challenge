@@ -11,7 +11,7 @@ type First4<T extends any[]> = T extends [infer First, ...infer Rest]
 /**
  * js实现
  */
-function first(arr) {
+function _First(arr) {
   if (arr.length === 0) return "never";
   return arr[0];
 
